@@ -12,9 +12,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-[class^="col"] {
-  padding: 0 10px;
-}
 .col-12 {
   flex-basis: 100%; /* flex: 100% 0 0; */
   flex-grow: 0;
@@ -74,21 +71,4 @@ body {
   flex-basis: 8.33%;
   flex-grow: 0;
   flex-shrink: 0;
-}
-.card {
-  box-shadow: 3px 3px 10px black;
-  background-color: rgb(126, 225, 238);
-  margin-bottom: 10px;
-}
-.card .card-img {
-  width: 100%;
-}
-.card .card-content {
-  padding: 10px 15px;
-}
-.card.card-horizonal {
-  display: flex;
-}
-.card.card-horizonal .card-img {
-  width: 30%;
 }
